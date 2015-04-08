@@ -1,0 +1,57 @@
+create welcome form with login
+*invalid login 3 times then close
+*warn user that theres only one more chance and say how many times it took
+*allow user to change password
+*2- make a database of accounts and passwords
+*add entries to database
+
+names of two players
+loop through pics in two boxes, forward and backward
+exit with farewell message
+ID info, credits, media, stars
+
+*farewll message in seperate form
+*expand previous star to include IF Info
+*expand previous star to include elapsed time
+*yes or no, play another game
+
+create play form, background image, thank you message blah
+a toggle display/hide button
+a shuffle button that rearranges the cards
+*3 radio buttons that implement 3 different shuffling algorithms
+cut button see task sheet
+*random cut
+
+play the game, each user takes 2 clicks
+*star if user matches, they get to keep playing
+*allow user to select if they want it that way or the normal way
+show winners/losers
+play again button
+
+*2- custom-designed classes for accomodating global variables and methods
+
+managers report, hurdles, pride, helped, helped by, stars
+
+16
+
+extra stars:
+*time limit for games
+*display how much time each player has used
+*player loses turn if they go over time limit
+*players decide which player goes first
+*allow players to select imagelists
+*victory timer animation when a player wins
+*display start time, end time at exit screen
+*multiplayer history button
+*instant replay
+
+9
+
+STARS FROM #2 CP:
+*each time you play, have the images or picture boxes appear in a random location
+*history button with outcomes
+*2 history button with moves
+*mucho stars, instant replay
+*2 picture boxes not with design mode
+
+7

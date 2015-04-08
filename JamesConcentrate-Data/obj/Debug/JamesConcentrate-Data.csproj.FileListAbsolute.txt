@@ -1,0 +1,5 @@
+C:\Users\james\Desktop\CompSci 2015\Visual Studio Projects\JamesConcentrate\JamesConcentrate-Data\bin\Debug\JamesConcentrate-Data.dll
+C:\Users\james\Desktop\CompSci 2015\Visual Studio Projects\JamesConcentrate\JamesConcentrate-Data\bin\Debug\JamesConcentrate-Data.pdb
+C:\Users\james\Desktop\CompSci 2015\Visual Studio Projects\JamesConcentrate\JamesConcentrate-Data\obj\Debug\JamesConcentrate-Data.csprojResolveAssemblyReference.cache
+C:\Users\james\Desktop\CompSci 2015\Visual Studio Projects\JamesConcentrate\JamesConcentrate-Data\obj\Debug\JamesConcentrate-Data.dll
+C:\Users\james\Desktop\CompSci 2015\Visual Studio Projects\JamesConcentrate\JamesConcentrate-Data\obj\Debug\JamesConcentrate-Data.pdb

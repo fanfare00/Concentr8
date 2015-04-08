@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2C9C0B5-3E19-4E38-B2F9-8DC97876A573}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JamesConcentrate.Game</RootNamespace>
+    <AssemblyName>JamesConcentrate-Game</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameHistoryNode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JamesConcentrate-Controller\JamesConcentrate-Controller.csproj">
+      <Project>{1595c6d7-2fb7-49cb-b320-2a9567ac7cd2}</Project>
+      <Name>JamesConcentrate-Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JamesConcentrate-Data\JamesConcentrate-Data.csproj">
+      <Project>{bd3390ef-2f90-4280-8460-9cd2312c4a10}</Project>
+      <Name>JamesConcentrate-Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cherry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coconut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kiwi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lemon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strawberry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Watermelon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Banner_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Banner_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wrong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_Grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame_Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default_Alt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wrong_Alt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default_Alt_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wrong_Alt_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Banner_Alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Grid_Alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Options_Alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bkg_Timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
